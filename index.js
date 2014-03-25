@@ -3,8 +3,10 @@ var path = require('path');
 
 var dir = path.resolve(__dirname, 'src');
 
-fs.exists(dir, function(exists) {
-	if (exists) {
-		robot.loadFile(path.resolve(dir, 'hashme.coffee'));
-	}
-});
+module.exports = function(robot) {
+	fs.exists(dir, function(exists) {
+		if (exists) {
+			robot.loadFile(dir, 'hashme.js');
+		}
+	});
+}

@@ -1,25 +1,26 @@
 {
-	"name": "hubot-hashme",
-	"version": "0.0.1",
-	"author": "tgfjt",
-	"description": "to create hash with crypto for hubot",
-	"main": "index.js",
-	"scripts": {
-		"test": "node test/*.js"
-	},
-	"keywords": [
-		"hubot",
-		"hash"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/tgfjt/hubot-hashme"
-	},
-	"license": "MIT",
-	"dependencies": {
-		"crypto": "0.0.3"
-	},
-	"devDependencies": {
-		"tape": "~2.12.0"
-	}
+  "name": "hubot-hashme",
+  "version": "0.0.1",
+  "author": "tgfjt",
+  "description": "to create hash with crypto for hubot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "keywords": [
+    "hubot",
+    "hash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgfjt/hubot-hashme"
+  },
+  "bugs": {
+    "email": "fujita@tagpanda.co.jp",
+    "url": "https://github.com/tgfjt/hubot-hashme/issues"
+  },
+  "license": "MIT",
+    "devDependencies": {
+    "tape": "~2.12.0"
+  }
 }
