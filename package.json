@@ -1,0 +1,27 @@
+{
+  "name": "hubot-hashme",
+  "version": "0.0.1",
+  "author": "tgfjt",
+  "description": "to create hash with crypto for hubot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "keywords": [
+    "hubot",
+    "hash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgfjt/hubot-hashme"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "0.0.3"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "tape": "~2.12.0"
+  }
+}
