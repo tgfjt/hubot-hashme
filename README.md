@@ -3,6 +3,7 @@
 This is a hubot-script to create hash with crypto for hubot :octocat:
 
 [![Build Status](https://secure.travis-ci.org/tgfjt/hubot-hashme.png?branch=master)](http://travis-ci.org/tgfjt/hubot-hashme)
+[![NPM version](https://badge.fury.io/js/hubot-hashme.png)](http://badge.fury.io/js/hubot-hashme)
 
 
 ## Install
