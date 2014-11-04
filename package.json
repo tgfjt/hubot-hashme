@@ -20,7 +20,8 @@
     "url": "https://github.com/tgfjt/hubot-hashme/issues"
   },
   "license": "MIT",
-    "devDependencies": {
+  "devDependencies": {
     "tape": "~2.12.0"
-  }
+  },
+  "dependencies": {}
 }
