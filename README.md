@@ -2,12 +2,13 @@
 
 This is a hubot-script to create hash with crypto for hubot :octocat:
 
-[![Build Status](https://secure.travis-ci.org/tgfjt/hubot-hashme.png?branch=master)](http://travis-ci.org/tgfjt/hubot-hashme)
-[![NPM version](https://badge.fury.io/js/hubot-hashme.png)](http://badge.fury.io/js/hubot-hashme)
+[![Build Status](https://travis-ci.org/tgfjt/hubot-hashme.svg?branch=v0.1.1)](https://travis-ci.org/tgfjt/hubot-hashme)
+
+[![NPM](https://nodei.co/npm/hubot-hashme.png)](https://nodei.co/npm/hubot-hashme/)
 
 
 ## Install
-```
+```bash
 $ npm install hubot-hashme
 ```
 
@@ -15,7 +16,7 @@ $ npm install hubot-hashme
 
 add your `/hubot/external-scripts.json`
 
-```
+```json
 ["hubot-hashme"]
 ```
 
@@ -26,6 +27,9 @@ add your `/hubot/external-scripts.json`
 ```
 hubot hashme sha1 123
 ```
+
+## Author
+tgfjt
 
 ## License
 [MIT](https://github.com/tgfjt/hubot-hashme/blob/master/LICENSE.md)
