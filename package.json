@@ -1,6 +1,6 @@
 {
   "name": "hubot-hashme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "tgfjt",
   "description": "to create hash with crypto for hubot",
   "main": "index.js",
