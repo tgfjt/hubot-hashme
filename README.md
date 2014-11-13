@@ -24,9 +24,7 @@ add your `/hubot/external-scripts.json`
 
 `hubot hashme <algorithm> <phrase>`
 
-```
-hubot hashme sha1 123
-```
+![image](https://raw.githubusercontent.com/tgfjt/hubot-hashme/master/screenshot.gif)
 
 ## Author
 tgfjt

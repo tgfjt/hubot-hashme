@@ -51,12 +51,12 @@ test('hashme wrong algorithm', function (t) {
 	t.equal(wrong, 'algorithm should to be... sha1, md5, sha256, sha512', 'to get Error message');
 });
 
-test('hashme sha1 123', function (t) {
+test('hashme sha1 this is some text', function (t) {
 	t.plan(1);
 
 	t.equal(
-		hashMe('sha1', '123'),
-		'40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'to create sha1');
+		hashMe('sha1', 'this is some text'),
+		'0393694d16b84deb612e47ce6252bd35f0d86c06', 'to create sha1');
 });
 
 test('hashme sha256 123', function (t) {
