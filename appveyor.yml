@@ -1,0 +1,22 @@
+version: 1.0.{build}
+
+branches:
+  only:
+    - master
+
+skip_tags: true
+
+install:
+  - ps: Update-NodeJsInstallation (Get-NodeJsLatestBuild $env:nodejs_version)
+  - node --version
+
+  - npm install -g npm
+  - npm --version
+
+  - npm install
+
+test_script:
+  - npm test
+
+build: off
+deploy: off
