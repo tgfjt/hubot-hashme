@@ -26,6 +26,8 @@ add your `/hubot/external-scripts.json`
 
 ![image](https://raw.githubusercontent.com/tgfjt/hubot-hashme/master/screenshot.gif)
 
+if <phrase> is URL(http/https), hash document at a given url.
+
 ## Author
 tgfjt
 
