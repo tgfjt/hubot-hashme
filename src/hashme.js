@@ -39,7 +39,7 @@ module.exports = function(robot) {
 					return msg.send('Could not Get document.');
 				});
 		} else {
-			return msg.send(hashMe(algorithm, target));
+			return msg.send(hashMe(algorithm).update(target).digest('hex'));
 		}
 	});
 };
